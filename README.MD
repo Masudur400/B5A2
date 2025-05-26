@@ -1,19 +1,19 @@
-## PostgreSQL
+# PostgreSQL
 
 
-# 1.What is PostgreSQL?
+## 1.What is PostgreSQL?
 - PostgreSQL একটি শক্তিশালী এবং ব্যবসা-স্তরের ওপেন সোর্স রিলেশনাল ডাটাবেস। এটি রিলেশনাল এসকিউএল এবং নন-রিলেশনাল JSON ডেটা এবং কোয়েরি ব্যবহারের অনুমতি দেয়। PostgreSQL এর পিছনে একটি শক্তিশালী সম্প্রদায় রয়েছে। PostgreSQL হল একটি অত্যন্ত নির্ভরযোগ্য ডাটাবেস ম্যানেজমেন্ট সিস্টেম যেখানে চমৎকার স্তরের সমর্থন, নিরাপত্তা এবং নির্ভুলতা রয়েছে। বেশ কিছু মোবাইল এবং ওয়েব অ্যাপ্লিকেশন তাদের ডিফল্ট ডাটাবেস হিসাবে PostgreSQL ব্যবহার করে।
 
-# 2.What is the purpose of a database schema in PostgreSQL?
+## 2.What is the purpose of a database schema in PostgreSQL?
 - PostgreSQL এ ডাটাবেস schema-এর উদ্দেশ্য হলো ডেটাবেস অবজেক্ট (যেমন - টেবিল, ভিউ, ইনডেক্স, ফাংশন ইত্যাদি) কে সংগঠিত করা এবং namespace প্রদান করা। এটি একাধিক ব্যবহারকারীকে একটি ডেটাবেস ব্যবহার করতে সাহায্য করে, কারণ schema ব্যবহার করে ডেটাবেস অবজেক্টগুলিকে আলাদাভাবে চিহ্নিত করা যায়, যা তাদের মধ্যে  naming conflict এড়াতে সাহায্য করে। 
 
-- - 3.Explain the Primary Key and Foreign Key concepts in PostgreSQL.
+## 3.Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 - Primary Key : Primary Key হলো একটি টেবিলের এমন একটি  কলামগুলোর সমষ্টি, যা প্রতিটি রেকর্ডকে (row) ইউনিকভাবে সনাক্ত করে।
 - Foreign Key : Foreign Key হলো একটি টেবিলের এমন একটি কলাম, যা অন্য একটি টেবিলের Primary Key বা Unique Key এর সাথে সম্পর্ক স্থাপন করে। এটি টেবিলের মধ্যে রিলেশন (সম্পর্ক) তৈরি করে। এটি মূলত রেফারেন্স করে অন্য টেবিলের একটি Primary Key। 
 
-# 4.How can you modify data using UPDATE statements?
+## 4.How can you modify data using UPDATE statements?
 - UPDATE হল SQL-এর একটি কমান্ড, যার মাধ্যমে ডেটাবেজের টেবিলের বিদ্যমান ডেটা পরিবর্তন করা হয়।
 এই কমান্ড ব্যবহার করে আমরা টেবিলের নির্দিষ্ট রেকর্ডের এক বা একাধিক কলামের মান আপডেট করতে পারি।
 
-# 5.Explain the GROUP BY clause and its role in aggregation operations.
+## 5.Explain the GROUP BY clause and its role in aggregation operations.
 - GROUP BY হল SQL-এর একটি ক্লজ, যা টেবিলের ডেটাকে নির্দিষ্ট কলামের ভিত্তিতে গ্রুপ করে এবং প্রতিটি গ্রুপের উপর অ্যাগ্রিগেট ফাংশন (যেমন COUNT, SUM, AVG, MAX, MIN) প্রয়োগ করতে সাহায্য করে।
