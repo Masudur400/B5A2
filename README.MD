@@ -7,7 +7,7 @@
 # 2.What is the purpose of a database schema in PostgreSQL?
 - PostgreSQL এ ডাটাবেস schema-এর উদ্দেশ্য হলো ডেটাবেস অবজেক্ট (যেমন - টেবিল, ভিউ, ইনডেক্স, ফাংশন ইত্যাদি) কে সংগঠিত করা এবং namespace প্রদান করা। এটি একাধিক ব্যবহারকারীকে একটি ডেটাবেস ব্যবহার করতে সাহায্য করে, কারণ schema ব্যবহার করে ডেটাবেস অবজেক্টগুলিকে আলাদাভাবে চিহ্নিত করা যায়, যা তাদের মধ্যে  naming conflict এড়াতে সাহায্য করে। 
 
-# 3.Explain the Primary Key and Foreign Key concepts in PostgreSQL.
+- - 3.Explain the Primary Key and Foreign Key concepts in PostgreSQL.
 - Primary Key : Primary Key হলো একটি টেবিলের এমন একটি  কলামগুলোর সমষ্টি, যা প্রতিটি রেকর্ডকে (row) ইউনিকভাবে সনাক্ত করে।
 - Foreign Key : Foreign Key হলো একটি টেবিলের এমন একটি কলাম, যা অন্য একটি টেবিলের Primary Key বা Unique Key এর সাথে সম্পর্ক স্থাপন করে। এটি টেবিলের মধ্যে রিলেশন (সম্পর্ক) তৈরি করে। এটি মূলত রেফারেন্স করে অন্য টেবিলের একটি Primary Key। 
 
